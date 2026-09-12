@@ -1,0 +1,4 @@
+expected_curated_class,species_name,assembly_accession,valid_proteins,valid_protein_fraction,model_prediction,max_probability
+Halophile,Natrinema gari,GCF_000281695.1,3657,0.9994534025690079,Halophile,0.916356879870229
+Mesophile,Tritonibacter mobilis,GCF_000376545.2,4483,0.9997769848349688,Mesophile,0.8695853168020861
+Thermophile,Thermosediminibacter oceani,GCF_000144645.1,2163,0.9967741935483871,Thermophile,0.9656184666692672

@@ -1,0 +1,4 @@
+extremophile_class,species_name,assembly_accession,file_name,protein_records,source,role
+Halophile,Natrinema gari,GCF_000281695.1,ExtremoAI_Demo_Halophile_Natrinema_gari_GCF_000281695.1_protein.faa,3659,NCBI RefSeq / NCBI Datasets,Demonstration example from ExtremoAI development cohort
+Mesophile,Tritonibacter mobilis,GCF_000376545.2,ExtremoAI_Demo_Mesophile_Tritonibacter_mobilis_GCF_000376545.2_protein.faa,4484,NCBI RefSeq / NCBI Datasets,Demonstration example from ExtremoAI development cohort
+Thermophile,Thermosediminibacter oceani,GCF_000144645.1,ExtremoAI_Demo_Thermophile_Thermosediminibacter_oceani_GCF_000144645.1_protein.faa,2170,NCBI RefSeq / NCBI Datasets,Demonstration example from ExtremoAI development cohort

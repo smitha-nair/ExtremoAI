@@ -1,0 +1,21 @@
+{
+  "method": "Uncertain if class-specific maximum probability is below the 10th percentile of correctly classified genus-grouped OOF predictions OR class-specific standardized nearest-neighbour distance exceeds the 95th percentile of within-class training nearest-neighbour distances.",
+  "probability_threshold_quantile": 0.1,
+  "distance_threshold_quantile": 0.95,
+  "probability_thresholds": {
+    "Halophile": 0.7416526353188996,
+    "Mesophile": 0.604702373624005,
+    "Thermophile": 0.7428729246774587
+  },
+  "distance_thresholds": {
+    "Halophile": 4.985268252285559,
+    "Mesophile": 4.2822583588393055,
+    "Thermophile": 4.700845491585017
+  },
+  "classes": [
+    "Halophile",
+    "Mesophile",
+    "Thermophile"
+  ],
+  "note": "Research abstention layer only; not a fourth trained class and not externally validated."
+}

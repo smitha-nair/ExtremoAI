@@ -1,0 +1,43 @@
+{
+  "project": "ExtremoAI",
+  "phase": "6B",
+  "model_purpose": "Whole-proteome organism-level adaptation prediction",
+  "prediction_classes": [
+    "Halophile",
+    "Mesophile",
+    "Thermophile"
+  ],
+  "model_family": "RBF Support Vector Classifier",
+  "best_params": {
+    "C": 5,
+    "gamma": 0.01
+  },
+  "training_organisms": 165,
+  "training_class_counts": {
+    "Halophile": 55,
+    "Mesophile": 55,
+    "Thermophile": 55
+  },
+  "unique_species": 165,
+  "unique_genera": 149,
+  "raw_biological_feature_count": 58,
+  "retained_feature_count_after_correlation_filter": 41,
+  "technical_qc_excluded": [
+    "excluded_short_proteins",
+    "excluded_nonstandard_proteins",
+    "valid_protein_fraction"
+  ],
+  "exact_duplicate_removed_before_training": "ratio_DE_KR",
+  "correlation_filter_threshold": 0.95,
+  "hyperparameter_selection": "5-fold StratifiedGroupKFold grouped by genus; macro-F1",
+  "reported_performance_source": "Phase 5B genus-grouped nested cross-validation",
+  "phase5b_reported_multiclass_macro_f1": 0.87,
+  "phase5b_reported_multiclass_balanced_accuracy": 0.881,
+  "phase5b_reported_multiclass_mcc": 0.82,
+  "phase5b_reported_multiclass_roc_auc": 0.953,
+  "probability_note": "SVC probabilities are model-estimated probabilities and should not be interpreted as biological certainty or externally calibrated confidence.",
+  "deployment_input": "Proteome-level feature vector generated from a whole-organism protein FASTA. A single protein sequence is outside the validated scope.",
+  "python_version": "3.13.15",
+  "sklearn_version": "1.6.1",
+  "feature_source_sha256": "f8da4677bcbbfa254fc6647628540836c0f552ef75e6fe1143cf7d6d2926d25a"
+}
